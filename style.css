@@ -1,0 +1,227 @@
+
+
+/* kisi bh id ko use krna # use hoga  */
+
+/* * is use for universal selector pore page p apply hoga  */
+
+/* .main-headings {
+    color: rgb(78, 170, 24);
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+
+header {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0px 20px;
+    background-color: gray;
+    
+}
+
+nav ol {
+    flex-direction: row;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;    
+}
+
+nav ol li a {
+    color: black;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+     
+}
+
+.logo {
+    width: 80px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.btn a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.section-1 
+{
+    width: 100%;
+    height: 120vh;
+    background-size:cover;
+    background-image: url(/5.jpg);
+    color: wheat;
+    
+}
+
+.main-headings{
+    padding: 100px 90px ;
+    width: 50vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.main-headings h1 
+{
+    font-size: 50px;
+    text-align: left;
+    text-decoration: underline;
+    padding: 9px 0px ;
+    font-style: italic;
+
+}
+.main-headings p{
+    font-size: 18px;
+    padding: 12px 0px;
+    line-height: 1.3;
+   
+}
+
+.btn-2{
+    background-color: white;
+    padding: 10px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+
+.section-2
+{
+    /* margin-top: 50px; */
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 100px 90px;
+    background-color: rgb(0, 0, 0);
+    color: #4237e6da;
+    font-size: 22px;
+    line-height: 1.7;
+    
+}
+
+.about-context {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about-context {
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.about-context h1  {
+    font-size: 40px;
+}
+
+.about-context p {
+    font-size: 20px;
+
+}
+
+.Products {
+    width: 100%;
+    padding: 40px 100px;
+}
+
+.Products div h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.main-product-div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.product-card img { 
+    width: 100px;
+    height: 100px;
+    
+}
+.product-card button {
+    border: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 1opx;
+    cursor: pointer;
+}
+
+
+
+#Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0px;
+}
+
+
+#Contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+#Contact > form div {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+#Contact button {
+    border: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 1opx;
+    cursor: pointer;
+}
+
+#Contact input {
+    padding: 5px;
+    height: 35px;
+    border-radius: 7px;
+    border: 2 px solid royalblue;
+
+}
+
